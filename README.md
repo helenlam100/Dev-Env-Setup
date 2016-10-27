@@ -18,7 +18,7 @@ Pre-requisite development environment steps to follow before working on any of t
 
 6.	Install Cloud Foundry command-line interface.
   * Windows: [Go here](https://github.com/cloudfoundry/cli#installers-and-compressed-binaries) and pick the “Installer” under windows for your distribution.
-  * Mac OS:
+  * Mac OS: Run the following command in your Terminal app.
 ```
 curl -L "https://cli.run.pivotal.io/stable?release=macosx64-binary&source=github" | tar -zx
 ```
@@ -27,16 +27,11 @@ curl -L "https://cli.run.pivotal.io/stable?release=macosx64-binary&source=github
   cf --version
   ```
   Reference: https://github.com/cloudfoundry/cli#downloads
-
 7.	Install Node and npm.
   * Windows: [Link to download](https://nodejs.org/en/). Once downloaded, install it.
-  * Mac OS:
-       * Type in this command in your terminal for Homebrew:
+  * Mac OS: Type the following commands in your terminal for Homebrew and node
 ```
 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install
-```
-       * Type in:
-```
 Brew install node
 ```
   * Verify the installation by typing `node -v` or `npm -v` in Git Bash/Terminal
