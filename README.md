@@ -28,13 +28,14 @@ curl -L "https://cli.run.pivotal.io/stable?release=macosx64-binary&source=github
   ```
   Reference: https://github.com/cloudfoundry/cli#downloads
 7.	Install Node and npm.
-  * Windows: [Link to download](https://nodejs.org/en/). Once downloaded, install it.
-  * Mac OS: Type the following commands in your terminal for Homebrew and node
+    * Windows: [Link to download](https://nodejs.org/en/). Once downloaded, install it.
+    * Mac OS: Type the following commands in your terminal for Homebrew and node
 ```
 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install
 Brew install node
 ```
-  * Verify the installation by typing `node -v` or `npm -v` in Git Bash/Terminal
+    * Verify the installation by typing `node -v` or `npm -v` in Git Bash/Terminal
+
 8. [Install Python 2.7](https://www.python.org/downloads/)
 9. Provision alchemy.
 
