@@ -2,10 +2,10 @@
 Pre-requisite development environment steps to follow before working on any of the labs
 
 1. Bluemix Registration
-  * Sign up for Bluemix at www.bluemix.net with IBM email address.
-  * Increase your Bluemix services and memory. Specificallly: request 4 GB of memory and 15 services, plus 6 month access to Bluemix (for IBMers only). You can use either of the two methods:
-    * Fill out [this form](https://ibm.biz/bluemixsupport), or
-    * Submit a new ticket through the [Client Success Portal](https://support.ibmcloud.com/ics/support/mylogin.asp?login=bluemix)
+   * Sign up for Bluemix at www.bluemix.net with IBM email address.
+   * Increase your Bluemix services and memory. Specificallly: request 4 GB of memory and 15 services, plus 6 month access to Bluemix (for IBMers only). You can use either of the two methods:
+      * Fill out [this form](https://ibm.biz/bluemixsupport), or
+      * Submit a new ticket through the [Client Success Portal](https://support.ibmcloud.com/ics/support/mylogin.asp?login=bluemix)
 
 2.	With your newly registered Bluemix account, log into [Bluemix DevOps Services](https://hub.jazz.net) and pick an alias (which will be part of every project that you create).
 
@@ -19,19 +19,26 @@ Pre-requisite development environment steps to follow before working on any of t
 6.	Install Cloud Foundry command-line interface.
   * Windows: [Go here](https://github.com/cloudfoundry/cli#installers-and-compressed-binaries) and pick the “Installer” under windows for your distribution.
   * Mac OS: Run the following command in your Terminal app.
-```
-curl -L "https://cli.run.pivotal.io/stable?release=macosx64-binary&source=github" | tar -zx
-```
+
+    ```
+    curl -L "https://cli.run.pivotal.io/stable?release=macosx64-binary&source=github" | tar -zx
+    ```
+
   * Verify the version: `cf --version`
+
   Reference: https://github.com/cloudfoundry/cli#downloads
+
 7.	Install Node and npm.
     * Windows: [Link to download](https://nodejs.org/en/). Once downloaded, install it.
     * Mac OS: Type the following commands in your terminal for Homebrew and node
-```
-curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install
-Brew install node
-```
-    * Verify the installation by typing `node -v` or `npm -v` in Git Bash/Terminal
+
+    ```
+    curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install
+    Brew install node
+    ```
+
+  * Verify the installation by typing `node -v` or `npm -v` in Git Bash/Terminal
+
 8. [Install Python 2.7](https://www.python.org/downloads/)
 9. Provision alchemy.
 
