@@ -22,7 +22,7 @@ Pre-requisite development environment steps to follow before working on any of t
 ```
 curl -L "https://cli.run.pivotal.io/stable?release=macosx64-binary&source=github" | tar -zx
 ```
-  * Verify the version:
+    * Verify the version:
   ```
   cf --version
   ```
