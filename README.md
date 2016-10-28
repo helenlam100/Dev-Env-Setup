@@ -40,7 +40,7 @@ Pre-requisite development environment steps to follow before working on any of t
   * Verify the installation by typing `node -v` or `npm -v` in Git Bash/Terminal
 
 8. [Install Python 2.7](https://www.python.org/downloads/)
-9. Provision alchemy.
+9. Provision Alchemy once you have signed into Bluemix. Click under "Catalog" on the nav bar at the top of the page, then "Watson" on the left hand, find "Alchemy" and click on Create. Leave the service unbound. 
 
 ## References:
 1. https://docs.npmjs.com/getting-started/installing-node
