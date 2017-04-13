@@ -40,7 +40,6 @@ Pre-requisite development environment steps to follow before working on any of t
   * Verify the installation by typing `node -v` or `npm -v` in Git Bash/Terminal
 
 8. [Install Python 2.7](https://www.python.org/downloads/)
-9. Provision alchemy.
 
 ## References:
 1. https://docs.npmjs.com/getting-started/installing-node
